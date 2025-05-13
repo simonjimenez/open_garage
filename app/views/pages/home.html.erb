@@ -1,0 +1,86 @@
+
+<div class="content-with-navbar-spacing">
+<div class="banner">
+  <img id="banner" src="https://wallpapers.com/images/hd/ultra-wide-4k-car-3lxbiug6ognbvkxm.jpg" alt="Car">
+</div>
+<div class="slogan">
+  <h1> <strong>Rent faster cars, in a faster way!</strong></h1>
+  <h4>Go wherever you want! there's a car waiting for you</h4>
+</div>
+<div class="row d-flex justify-content-center">
+  <div class="col-6">
+    <div class="explore d-flex justify-content-center">
+      <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/premium-photo/vertical-view-fronts-many-cars-parked-parking-lot_646632-5853.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Every car, for every ocassion</strong></h5>
+            <p class="card-text"> See all of our cars, ranging from SUV'S to sport cars</p>
+            <p class="card-text"><small class="text-body-secondary">Our premium selection</small></p>
+            <%= link_to "See more!","/cars", class: "btn btn-primary" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="explored d-flex justify-content-center">
+      <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+           <%= image_tag "garage.jpg", class: "img-fluid rounded-start" %>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Passive income, the easy way!</strong></h5>
+            <p class="card-text">Become a host and start making money today!</p>
+            <p class="card-text"><small class="text-body-secondary"> create your journey </small></p>
+          <%= link_to "Create your garage!","/garages/new", class: "btn btn-primary" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+ <!-- inicio del carrusel  -->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.rutamotor.com/wp-content/uploads/2023/12/SUV-Rutamotor-1170x722.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.bmw.cl/content/dam/bmw/common/all-models/m-series/x6m/2023/highlights/bmw-m-series-x6-m-gallery-image-impressionen-03_1920.jpg.asset.1675123934752.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://audi.klassikcar.cl/wp-content/uploads/GALLERY-NUEVO-Q7-1920x1080_-1..jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" dat a-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+  </div>
+</div>
